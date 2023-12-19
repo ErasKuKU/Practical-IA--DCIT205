@@ -51,7 +51,7 @@ app.post ('/register',async(req, res) =>{
 
 
 
-mongoose.connect('mongodb+srv://erasmusmensah2005:<in010706405319>@cluster.klgulvc.mongodb.net/Node-APIretryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://erasmusmensah2005:in010706405319@cluster.klgulvc.mongodb.net/Node-APIretryWrites=true&w=majority')
 .then(()=> {
     console.log('connected to MongoDB')
     app.listen(4000,()=>{
