@@ -4,7 +4,7 @@ const  visitSchema = mongoose.Schema(
     {
         encounterType: {
             type: String,
-            required: [true, "Please enter a product name"]
+            required: [true, "Please enter  name"]
         },
         patientID: {
             type: Number,
